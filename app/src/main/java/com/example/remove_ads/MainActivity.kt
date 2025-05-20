@@ -36,7 +36,7 @@ class MainActivity : AppCompatActivity() {
         // Configurar el boton para bloquear los anuncios
         btnBlockAds.setOnClickListener {
             adBlocker.blockAds()
-            tvStatus.text = "Estado: Activo"
+            tvStatus.text = "Estado: Activ"
         }
 
     // Iniciar bloqueo de anuncios
